@@ -91,17 +91,19 @@
   z-index: 0;
 }
 
-
-.topBlur, .bottomBlur {
+.bottomBlur {
   position: absolute;
-  width: 40vw; /* Adjust width to avoid overflow */
-  height: 40vw; /* Adjust height to avoid overflow */
-  min-width: 300px; /* Ensure minimum size for responsiveness */
-  min-height: 300px; /* Ensure minimum height for responsiveness */
+  width: 70vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
 }
-
 
 @media screen and (max-width: 830px) {
   .container {
