@@ -7,8 +7,39 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 345px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  overflow: hidden; /* Prevent content overflow */
 }
+
+
+.content {
+  flex: 1; /* Allow content to fill available space */
+  overflow-y: auto; /* Enable vertical scrolling for content */
+  padding-right: 8px; /* Space for scrollbar */
+}
+
+/* Modern Scrollbar Customization */
+.content::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.content::-webkit-scrollbar-track {
+  background: #132a53; /* Track background (matches the card) */
+  border-radius: 8px; /* Rounded edges for the track */
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: #576cbc; /* Thumb color */
+  border-radius: 8px; /* Rounded edges for the thumb */
+  border: 2px solid #132a53; /* Add a border to blend with the background */
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+  background: #3f5ba8; /* Slightly darker thumb on hover */
+}
+
+
 
 .image {
   margin-bottom: 26px;

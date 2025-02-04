@@ -1,15 +1,16 @@
 [
     {
-      "title": "Project A",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "source": "https://www.github.com"
+      "title": "Login Page",
+      "description": "This is a simple login page which I built to learn MERN. I also learnt more CSS properties while building this.",
+      "skills": ["React", "Express", "Node","MongoDB","HTML","CSS"],
+      "source": "https://github.com/jayadhanush/LoginPage"
     },
     {
-      "title": "Project B",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "source": "https://www.github.com"
+      "title": "CodeToFlow",
+      "description": "This is a project which converts the simple python codes to a flowchart .",
+      "skills": ["Python", "Graphviz", "Astor", "Streamlit"],
+      "source": "https://github.com/jayadhanush/CodeToFlow"
     }
+    
    
   ]

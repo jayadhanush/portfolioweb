@@ -7,7 +7,7 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className={styles.container}>
-      
+      <div className={styles.content}>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
@@ -24,6 +24,7 @@ export const ProjectCard = ({
         <a href={source} className={styles.link}>
           Source
         </a>
+      </div>
       </div>
     </div>
   );

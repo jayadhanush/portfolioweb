@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   width: 100vw;
   padding: 58px 10%;
-  gap: 10px;
+  gap:250px;
 }
 
 .text h2 {
@@ -27,7 +27,7 @@
 .links {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items:flex-start;
   list-style: none;
   gap: 26px;
 }
@@ -41,8 +41,8 @@
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 100;
   letter-spacing: 1.5px;
 }
 

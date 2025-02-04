@@ -9,6 +9,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  gap:20px;
 }
 
 .content {
@@ -17,7 +18,7 @@
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
-  gap:20px;
+  
 }
 
 .title {
@@ -52,9 +53,11 @@
 }
 
 .heroImg {
-  width: 70%;
-  border-radius: 30px;
+  width: 100%; /* Adjust image width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 30%; /* Limit max width to prevent overflow */
   z-index: 1;
+  border-radius: 20px;
 
   animation-name: floating;
   animation-duration: 3s;
@@ -88,19 +91,17 @@
   z-index: 0;
 }
 
-.bottomBlur {
+
+.topBlur, .bottomBlur {
   position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
+  width: 40vw; /* Adjust width to avoid overflow */
+  height: 40vw; /* Adjust height to avoid overflow */
+  min-width: 300px; /* Ensure minimum size for responsiveness */
+  min-height: 300px; /* Ensure minimum height for responsiveness */
   filter: blur(100px);
   z-index: 0;
 }
+
 
 @media screen and (max-width: 830px) {
   .container {
